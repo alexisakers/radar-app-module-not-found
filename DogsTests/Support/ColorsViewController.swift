@@ -39,7 +39,7 @@ struct ColorItem {
  */
 
 class ColorViewController: VerticalColumnCollectionViewController {
-// class ColorViewController: UICollectionViewController {
+//class ColorViewController: UICollectionViewController {
 
     enum TestEnvironment {
         case phone, tablet
@@ -57,9 +57,9 @@ class ColorViewController: VerticalColumnCollectionViewController {
         super.init(interItemSpacing: 2, interColumnSpacing: 4, columnLayout: columnLayout)
 
         // Uncomment these three lines when sublassing UICollectionViewController
-        //let layout = UICollectionViewFlowLayout()
-        //layout.itemSize = CGSize(width: 100, height: 100)
-        //super.init(collectionViewLayout: layout)
+//        let layout = UICollectionViewFlowLayout()
+//        layout.itemSize = CGSize(width: 100, height: 100)
+//        super.init(collectionViewLayout: layout)
     }
 
     required init?(coder aDecoder: NSCoder) {

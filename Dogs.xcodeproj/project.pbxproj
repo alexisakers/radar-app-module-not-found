@@ -10,7 +10,7 @@
 		5EBE6AF220E7652D0020379F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6AF120E7652D0020379F /* AppDelegate.swift */; };
 		5EBE6AF920E7652F0020379F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE6AF820E7652F0020379F /* Assets.xcassets */; };
 		5EBE6AFC20E7652F0020379F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE6AFA20E7652F0020379F /* LaunchScreen.storyboard */; };
-		5EBE6B0720E7652F0020379F /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6B0620E7652F0020379F /* TestTests.swift */; };
+		5EBE6B0720E7652F0020379F /* VerticalColumnCollectionViewLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6B0620E7652F0020379F /* VerticalColumnCollectionViewLayoutTests.swift */; };
 		5EBE6B1220E765B40020379F /* TestSupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6B1120E765B40020379F /* TestSupportTests.m */; };
 		5EBE6B1420E765E60020379F /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6B1320E765E60020379F /* Random.swift */; };
 		5EBE6B1620E767800020379F /* VerticalColumnCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6B1520E767800020379F /* VerticalColumnCollectionViewLayout.swift */; };
@@ -40,7 +40,7 @@
 		5EBE6AFB20E7652F0020379F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EBE6AFD20E7652F0020379F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EBE6B0220E7652F0020379F /* DogsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EBE6B0620E7652F0020379F /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
+		5EBE6B0620E7652F0020379F /* VerticalColumnCollectionViewLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalColumnCollectionViewLayoutTests.swift; sourceTree = "<group>"; };
 		5EBE6B0820E7652F0020379F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EBE6B1120E765B40020379F /* TestSupportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSupportTests.m; sourceTree = "<group>"; };
 		5EBE6B1320E765E60020379F /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
@@ -248,7 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				5EBE6C3E20E779710020379F /* Support */,
-				5EBE6B0620E7652F0020379F /* TestTests.swift */,
+				5EBE6B0620E7652F0020379F /* VerticalColumnCollectionViewLayoutTests.swift */,
 				5EBE6B1120E765B40020379F /* TestSupportTests.m */,
 				5EBE6B0820E7652F0020379F /* Info.plist */,
 			);
@@ -561,7 +561,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EBE6C3D20E7796D0020379F /* ColorsViewController.swift in Sources */,
-				5EBE6B0720E7652F0020379F /* TestTests.swift in Sources */,
+				5EBE6B0720E7652F0020379F /* VerticalColumnCollectionViewLayoutTests.swift in Sources */,
 				5EBE6B1220E765B40020379F /* TestSupportTests.m in Sources */,
 				5EBE6B1420E765E60020379F /* Random.swift in Sources */,
 				5EBE6C3A20E776470020379F /* BaseTestCase.m in Sources */,
