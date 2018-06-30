@@ -716,7 +716,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wearezeta.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.alexaubry.Dogs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Dogs/Dogs-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -737,7 +737,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wearezeta.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.alexaubry.Dogs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Dogs/Dogs-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
@@ -758,7 +758,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wearezeta.TestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.alexaubry.DogsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/DogsTests/Support/DogsTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -781,7 +781,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wearezeta.TestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.alexaubry.DogsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/DogsTests/Support/DogsTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
