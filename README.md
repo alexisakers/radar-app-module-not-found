@@ -59,6 +59,6 @@ Trying to make `VerticalColumnCollectionViewController` and related objects `pub
 
 ## License
 
-The pictures of golden retrievers used in the main app were imported from [Unspash](https://unsplash.com/search/photos/golden-retriever). 
+The pictures of golden retrievers used in the main app were imported from [Unsplash](https://unsplash.com/search/photos/golden-retriever). 
 
 This example project does not use any parts of the Wire application. It is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
