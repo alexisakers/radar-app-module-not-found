@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E35D4F920FF3BAD0097623E /* golden_retriever in Resources */ = {isa = PBXBuildFile; fileRef = 5E35D4F820FF3BAD0097623E /* golden_retriever */; };
 		5EBE6AF220E7652D0020379F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6AF120E7652D0020379F /* AppDelegate.swift */; };
 		5EBE6AF920E7652F0020379F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE6AF820E7652F0020379F /* Assets.xcassets */; };
 		5EBE6AFC20E7652F0020379F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE6AFA20E7652F0020379F /* LaunchScreen.storyboard */; };
@@ -15,7 +16,6 @@
 		5EBE6B1420E765E60020379F /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6B1320E765E60020379F /* Random.swift */; };
 		5EBE6B1620E767800020379F /* VerticalColumnCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6B1520E767800020379F /* VerticalColumnCollectionViewLayout.swift */; };
 		5EBE6B1820E769680020379F /* VerticalColumnCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6B1720E769680020379F /* VerticalColumnCollectionViewController.swift */; };
-		5EBE6C3020E76D010020379F /* golden_retriever in Resources */ = {isa = PBXBuildFile; fileRef = 5EBE6C2E20E76CD90020379F /* golden_retriever */; };
 		5EBE6C3320E76F480020379F /* DogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6C3220E76F480020379F /* DogsViewController.swift */; };
 		5EBE6C3520E76FE60020379F /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6C3420E76FE60020379F /* ImageCollectionViewCell.swift */; };
 		5EBE6C3A20E776470020379F /* BaseTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE6C3920E776470020379F /* BaseTestCase.m */; };
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E35D4F820FF3BAD0097623E /* golden_retriever */ = {isa = PBXFileReference; lastKnownFileType = folder; path = golden_retriever; sourceTree = SOURCE_ROOT; };
 		5EBE6AEE20E7652D0020379F /* Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBE6AF120E7652D0020379F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EBE6AF820E7652F0020379F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		5EBE6B1320E765E60020379F /* Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
 		5EBE6B1520E767800020379F /* VerticalColumnCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalColumnCollectionViewLayout.swift; sourceTree = "<group>"; };
 		5EBE6B1720E769680020379F /* VerticalColumnCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalColumnCollectionViewController.swift; sourceTree = "<group>"; };
-		5EBE6C2E20E76CD90020379F /* golden_retriever */ = {isa = PBXFileReference; lastKnownFileType = folder; name = golden_retriever; path = ../../../Downloads/Images/golden_retriever; sourceTree = "<group>"; };
 		5EBE6C3220E76F480020379F /* DogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsViewController.swift; sourceTree = "<group>"; };
 		5EBE6C3420E76FE60020379F /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		5EBE6C3920E776470020379F /* BaseTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTestCase.m; sourceTree = "<group>"; };
@@ -239,7 +239,7 @@
 				5EBE6C3120E76F300020379F /* Layout */,
 				5EBE6C3820E7733D0020379F /* Dogs */,
 				5ED26C3D20E77CF600EB9ED4 /* Supporting Files */,
-				5EBE6C2E20E76CD90020379F /* golden_retriever */,
+				5E35D4F820FF3BAD0097623E /* golden_retriever */,
 			);
 			path = Dogs;
 			sourceTree = "<group>";
@@ -527,9 +527,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EBE6C3020E76D010020379F /* golden_retriever in Resources */,
 				5EBE6AFC20E7652F0020379F /* LaunchScreen.storyboard in Resources */,
 				5EBE6AF920E7652F0020379F /* Assets.xcassets in Resources */,
+				5E35D4F920FF3BAD0097623E /* golden_retriever in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

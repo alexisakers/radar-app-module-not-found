@@ -9,7 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let dogsDirectory = Bundle.main.resourceURL!.appendingPathComponent("golden_retriever")
         let dogFiles = try! FileManager.default.contentsOfDirectory(at: dogsDirectory, includingPropertiesForKeys: nil)
-        let localDogs = dogFiles.map(Dog.init)
+        let localDogs = dogFiles.compactMap(Dog.init)
 
         let dogsViewController = DogsViewController(dogs: localDogs, breed: "Golden Retrievers")
         let navigation = UINavigationController(rootViewController: dogsViewController)

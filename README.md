@@ -2,8 +2,8 @@
 
 | Radar Number | Status | 
 |------------------|---------|
-| [rdar://nil](rdar://nil) | Not yet reported |
-| [openradar://nil](openradar://nil) | Noy yet reported |
+| [rdar://42326672](rdar://42326672) | Reported |
+| [openradar://nil](openradar://nil) | Not yet reported |
 
 This project demonstrates an Xcode compilation error encountered when building a mixed Swift/Objective-C application test target.
 
@@ -59,6 +59,6 @@ Trying to make `VerticalColumnCollectionViewController` and related objects `pub
 
 ## License
 
-The pictures of golden retrievers used in the main app were imported from [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/). 
+The pictures of golden retrievers used in the main app were imported from [Unspash](https://unsplash.com/search/photos/golden-retriever). 
 
 This example project does not use any parts of the Wire application. It is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
