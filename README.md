@@ -2,8 +2,8 @@
 
 | Radar Number | Status | 
 |------------------|---------|
-| [rdar://42326672](rdar://42326672) | Reported |
-| [openradar://42326672](https://openradar.appspot.com/radar?id=4976635497414656) | Reported |
+| [rdar://42326672](rdar://42326672) | Duplicate of 19245651 |
+| [openradar://42326672](https://openradar.appspot.com/radar?id=4976635497414656) | Duplicate of 19245651 |
 
 This project demonstrates an Xcode compilation error encountered when building a mixed Swift/Objective-C application test target.
 
